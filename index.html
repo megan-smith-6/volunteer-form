@@ -17,61 +17,83 @@
     <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </header>
 
-  <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
-      <fieldset>
-        <legend>Personal details</legend>
-        <div>
+  <section>
+    <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+        <fieldset>
+          <legend>Personal details</legend>
           <div>
-            <label for="name">Full name</label>
-            <input id="name" type="name" name="name" required>
-            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            <div>
+              <label for="name">Full name</label>
+              <input id="name" type="name" name="name" required>
+              <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            </div>
+            <div>
+              <label for="name">What should we call you?</label>
+              <input id="nickname" type="name" name="name" required>
+              <p>What all your friends call you, e.g. “Liz”.</p>
+            </div>
+            <div>
+              <label for="name">Date of birth</label>
+              <input id="date" type="date" name="date" required>
+            </div>
+            <div>
+              <label for="subject">T-shirt size</label>
+              <select id="subject" placeholder="Select a t-shirt size" name="_subject">
+                <option>Fitted: XS</option>
+                <option>Fitted: S</option>
+                <option>Fitted: M</option>
+                <option>Fitted: L</option>
+                <option>Fitted: XL</option>
+                <option>Straight-cut: XS</option>
+                <option>Straight-cut: S</option>
+                <option>Straight-cut: M</option>
+                <option>Straight-cut: L</option>
+                <option>Straight-cut: XL</option>
+              </select>
+            </div>
+            <div>
+              <label for="name">Email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+            </div>
+            <div>
+              <label for="name">Phone number</label>
+              <input id="tel" type="tel" name="tel">
+            </div>
           </div>
+        </fieldset>
+        <fieldset>
+          <legend>Address</legend>
           <div>
-            <label for="name">What should we call you?</label>
-            <input id="nickname" type="name" name="name" required>
-            <p>What all your friends call you, e.g. “Liz”.</p>
+            <div>
+              <label for="address">Street Address</label>
+              <textarea id="street address" name="address"></textarea>
+            </div>
+            <div>
+              <label for="address">City</label>
+              <textarea id="city" name="city"></textarea>
+            </div>
+            <div>
+              <label for="subject">Province</label>
+              <select id="province" placeholder="Select a province" name="_subject">
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland & Labrador</option>
+                <option>Northwest Territories</option>
+                <option>Nova Scotia</option>
+                <option>Nunavut</option>
+                <option>Ontario</option>
+                <option>Prince Edward Island</option>
+                <option>Québec</option>
+                <option>Saskatchewan</option>
+                <option>Yukon</option>
+              </select>
+            </div>
           </div>
-          <div>
-            <label for="name">Date of birth</label>
-            <input id="date" type="date" name="date" required>
-          </div>
-          <div>
-            <label for="subject">T-shirt size</label>
-            <select id="subject" placeholder="Select a t-shirt size" name="_subject">
-              <option>Fitted: XS</option>
-              <option>Fitted: S</option>
-              <option>Fitted: M</option>
-              <option>Fitted: L</option>
-              <option>Fitted: XL</option>
-              <option>Straight-cut: XS</option>
-              <option>Straight-cut: S</option>
-              <option>Straight-cut: M</option>
-              <option>Straight-cut: L</option>
-              <option>Straight-cut: XL</option>
-            </select>
-          </div>
-          <div>
-            <label for="name">Email</label>
-            <input id="email" type="email" name="email" required>
-          </div>
-          </div>
-          <div>
-            <label for="name">Phone number</label>
-            <input id="tel" type="tel" name="tel">
-          </div>
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend>Address</legend>
-        <div>
-          <div>
-            <label for="address">Street Address</label>
-            <textarea id="address" name="address"></textarea>
-          </div>
-          <div>
-
-          </div>
-        </div>
+        </fieldset>
+      </section>
 
   <footer>© Tree Hugger International Organization</footer>
 
